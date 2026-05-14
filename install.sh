@@ -18,8 +18,7 @@ mkdir -p "$HOME/.vscode-remote/data/Machine"
 ln -sf "$DOTFILES/vscode/settings.json" "$HOME/.vscode-remote/data/Machine/settings.json"
 
 mkdir -p "$HOME/.config/fish/"
-ln -sf "$DOTFILES_DIR/.config/fish/config.fish" "$HOME/.config/fish/config.fish"
-ln -sf "$DOTFILES_DIR/.config/starship.toml" "$HOME/.config/starship.toml"
+ln -sf "$DOTFILES/.config/fish/config.fish" "$HOME/.config/fish/config.fish"
 
 
 
