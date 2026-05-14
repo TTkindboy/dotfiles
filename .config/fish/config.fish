@@ -7,4 +7,4 @@ if string match -q "$TERM_PROGRAM" "vscode"; and command -q code-insiders
 end
 
 # Starship prompt
-starship init fish | source
+# starship init fish | source

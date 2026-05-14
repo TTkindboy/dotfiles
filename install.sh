@@ -9,9 +9,9 @@ sudo apt-get update -q
 sudo apt-get install -y fish
 
 # starship install
-if ! command -v starship &>/dev/null; then
-    curl -fsSL https://starship.rs/install.sh | sh -s -- --yes
-fi
+# if ! command -v starship &>/dev/null; then
+#     curl -fsSL https://starship.rs/install.sh | sh -s -- --yes
+# fi
  
 # symlinks
 mkdir -p "$HOME/.vscode-remote/data/Machine"
