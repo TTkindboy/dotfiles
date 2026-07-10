@@ -24,7 +24,9 @@ ln -sf "$DOTFILES/.config/fish/config.fish" "$HOME/.config/fish/config.fish"
 
 
 # Tools
-curl -LsSf https://astral.sh/uv/install.sh | sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y &
+# curl -LsSf https://astral.sh/uv/install.sh | sh
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y & # off bc mise for now???
+
+curl https://mise.run/fish | sh
 
 # TODO: LATEST PNPM
